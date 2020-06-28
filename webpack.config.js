@@ -63,6 +63,11 @@ module.exports = {
             filename: 'access.html'
 
         }),
+        new HtmlWebpackPlugin({
+            template: './src/templates/members/taro.pug',
+            filename: 'members/taro.html'
+
+        }),
         new CleanWebpackPlugin(),
     ]
 }
